@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="https://yancyjiang.gitee.io/hexo">
   <title>Linux 常用命令 | YancyJiang Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1. cd：用于切换当前工作目录至 dirName(目录参数)1) 切换到 /usr/bin  1cd /usr/bin  2) 切换到 /home  1cd ~  3) 切换到上上级目录 1cd ../..  2. ls：用于显示指定工作目录下之内容1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ） 1234# ls /bin               dev">
+  <meta name="description" content="1. cd：用于切换当前工作目录至 dirName(目录参数)1) 切换到 /usr/bin    1# cd /usr/bin 2) 切换到 /home    1# cd ~ 3) 切换到上上级目录    1# cd ../.. 2. ls：用于显示指定工作目录下之内容1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ）    1234# ls /bin">
 <meta name="keywords" content="Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux 常用命令">
 <meta property="og:url" content="https://yancyjiang.gitee.io/hexo/2019/07/18/常用命令/index.html">
 <meta property="og:site_name" content="YancyJiang Blog">
-<meta property="og:description" content="1. cd：用于切换当前工作目录至 dirName(目录参数)1) 切换到 /usr/bin  1cd /usr/bin  2) 切换到 /home  1cd ~  3) 切换到上上级目录 1cd ../..  2. ls：用于显示指定工作目录下之内容1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ） 1234# ls /bin               dev">
+<meta property="og:description" content="1. cd：用于切换当前工作目录至 dirName(目录参数)1) 切换到 /usr/bin    1# cd /usr/bin 2) 切换到 /home    1# cd ~ 3) 切换到上上级目录    1# cd ../.. 2. ls：用于显示指定工作目录下之内容1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ）    1234# ls /bin">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-18T15:21:21.638Z">
+<meta property="og:updated_time" content="2019-07-19T15:46:37.511Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux 常用命令">
-<meta name="twitter:description" content="1. cd：用于切换当前工作目录至 dirName(目录参数)1) 切换到 /usr/bin  1cd /usr/bin  2) 切换到 /home  1cd ~  3) 切换到上上级目录 1cd ../..  2. ls：用于显示指定工作目录下之内容1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ） 1234# ls /bin               dev">
+<meta name="twitter:description" content="1. cd：用于切换当前工作目录至 dirName(目录参数)1) 切换到 /usr/bin    1# cd /usr/bin 2) 切换到 /home    1# cd ~ 3) 切换到上上级目录    1# cd ../.. 2. ls：用于显示指定工作目录下之内容1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ）    1234# ls /bin">
   
     <link rel="alternative" href="/atom.xml" title="YancyJiang Blog" type="application/atom+xml">
   
@@ -190,159 +190,35 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h5 id="1-cd：用于切换当前工作目录至-dirName-目录参数"><a href="#1-cd：用于切换当前工作目录至-dirName-目录参数" class="headerlink" title="1. cd：用于切换当前工作目录至 dirName(目录参数)"></a>1. cd：用于切换当前工作目录至 dirName(目录参数)</h5><p>1) 切换到 /usr/bin </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/bin</span><br></pre></td></tr></table></figure>
-
-<p>2) 切换到 /home </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br></pre></td></tr></table></figure>
-
-<p>3) 切换到上上级目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ../..</span><br></pre></td></tr></table></figure>
-
-<h5 id="2-ls：用于显示指定工作目录下之内容"><a href="#2-ls：用于显示指定工作目录下之内容" class="headerlink" title="2. ls：用于显示指定工作目录下之内容"></a>2. ls：用于显示指定工作目录下之内容</h5><p>1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ）</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> ls /</span><br><span class="line">bin               dev   lib         media  net   root     srv  upload  www</span><br><span class="line">boot              etc   lib64       misc   opt   sbin     sys  usr</span><br><span class="line">home  lost+found  mnt    proc  selinux  tmp  var</span><br></pre></td></tr></table></figure>
-
-<p>2) 列出目前工作目录下所有名称是s开头的文件，按时间倒序</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -ltr s*</span><br></pre></td></tr></table></figure>
-
-<p>3)  列出目前工作目录下所有文件及目录；目录于名称后加 “/“, 可执行档于名称后加 “*” </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -AF</span><br></pre></td></tr></table></figure>
-
-<h5 id="3-ll：用于显示指定工作目录下详细内容"><a href="#3-ll：用于显示指定工作目录下详细内容" class="headerlink" title="3. ll：用于显示指定工作目录下详细内容"></a>3. ll：用于显示指定工作目录下详细内容</h5><ol>
-<li><p>详细显示文件或文件夹的权限、组、文件属性</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ll</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="4-wd：用于显示当前所在的工作目录的绝对路径名称"><a href="#4-wd：用于显示当前所在的工作目录的绝对路径名称" class="headerlink" title="4. wd：用于显示当前所在的工作目录的绝对路径名称"></a>4. wd：用于显示当前所在的工作目录的绝对路径名称</h5><ol>
-<li><p>查看当前所在目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> pwd</span><br><span class="line">/root/test           #输出结果</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="5-mkdir：用于建立名称为-dirName-之子目录"><a href="#5-mkdir：用于建立名称为-dirName-之子目录" class="headerlink" title="5. mkdir：用于建立名称为 dirName 之子目录"></a>5. mkdir：用于建立名称为 dirName 之子目录</h5><ol>
-<li><p>创建一个名为 AAA 的子目录 :</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir AAA</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>级联创建多层目录，</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p BBB/Test</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="6-rmdir：删除空的目录"><a href="#6-rmdir：删除空的目录" class="headerlink" title="6. rmdir：删除空的目录"></a>6. rmdir：删除空的目录</h5><ol>
-<li><p>删除空的目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rmdir AAA</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>级联删除多层目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rmdir -p BBB/Test</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="7-chmod：设定文件的操作权限"><a href="#7-chmod：设定文件的操作权限" class="headerlink" title="7. chmod：设定文件的操作权限"></a>7. chmod：设定文件的操作权限</h5><ol>
-<li><p>参数说明：</p>
-<ul>
-<li>u 表示该文件的拥有者，g 表示与该文件的拥有者属于同一个群体(group)者，o 表示其他以外的人，a 表示这三者皆是。</li>
-</ul>
-<ul>
-<li>表示增加权限、- 表示取消权限、= 表示唯一设定权限。</li>
-<li>r 表示可读取，w 表示可写入，x 表示可执行，X 表示只有当该文件是个子目录或者该文件已经被设定过为可执行。</li>
-<li>若要rwx属性则4+2+1=7、若要rw-属性则4+2=6、若要r-x属性则4+1=5。</li>
-</ul>
-</li>
-<li><p>设定该文件拥有者可以执行</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 777 file</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>设定该文件拥有者和用户组有读写执行权限，其他人有执行权限 (字母形式和数字)</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod ug=rwx,o=x file</span><br><span class="line">chmod 771 file</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="8-chown：设定文件的拥有者或操作组"><a href="#8-chown：设定文件的拥有者或操作组" class="headerlink" title="8.  chown：设定文件的拥有者或操作组"></a>8.  chown：设定文件的拥有者或操作组</h5><ol>
-<li><p>参数说明：</p>
-<ul>
-<li>user : 新的文件拥有者的使用者 ID</li>
-<li>group : 新的文件拥有者的使用者组(group)</li>
-<li>-c : 显示更改的部分的信息</li>
-<li>-f : 忽略错误信息</li>
-<li>-h :修复符号链接</li>
-<li>-v : 显示详细的处理信息</li>
-<li>-R : 处理指定目录以及其子目录下的所有文件</li>
-</ul>
-</li>
-<li><p>将文件 file1.txt 的拥有者设定为 oracle，操作组设置为 oinstall</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown oracle:oinstall file1.txt</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将当前目录下所有文件及文件夹设定为拥有者 oracle，操作组 oinstall</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown -R oracle:oinstall *</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="9-cp：用于复制文件或目录"><a href="#9-cp：用于复制文件或目录" class="headerlink" title="9. cp：用于复制文件或目录"></a>9. cp：用于复制文件或目录</h5><ol>
-<li><p>参数说明</p>
-<ul>
-<li>-a：此选项通常在复制目录时使用，它保留链接、文件属性，并复制目录下的所有内容。其作用等于dpR参数组合。</li>
-<li>-d：复制时保留链接。这里所说的链接相当于Windows系统中的快捷方式。</li>
-<li>-f：覆盖已经存在的目标文件而不给出提示。</li>
-<li>-i：与-f选项相反，在覆盖目标文件之前给出提示，要求用户确认是否覆盖，回答”y”时目标文件将被覆盖。</li>
-<li>-p：除复制文件的内容外，还把修改时间和访问权限也复制到新文件中。</li>
-<li>-r：若给出的源文件是一个目录文件，此时将复制该目录下所有的子目录和文件。</li>
-<li>-l：不复制文件，只是生成链接文件。</li>
-</ul>
-</li>
-<li><p>将当前目录下 “test/” 下的所有文件复制到新建的 “newtest” 下</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> cp –r test/ newtest</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h5 id="10-mv：用于移动或重命名文件或目录-当文件在同级目录为重命名操作，不同目录为移动操作"><a href="#10-mv：用于移动或重命名文件或目录-当文件在同级目录为重命名操作，不同目录为移动操作" class="headerlink" title="10. mv：用于移动或重命名文件或目录 (当文件在同级目录为重命名操作，不同目录为移动操作)"></a>10. mv：用于移动或重命名文件或目录 (当文件在同级目录为重命名操作，不同目录为移动操作)</h5><p>1)  参数说明：</p>
-<ul>
-<li>-i: 若指定目录已有同名文件，则先询问是否覆盖旧文件;</li>
-<li>-f: 在mv操作要覆盖某已有的目标文件时不给任何指示;</li>
-</ul>
-<p>2) 将文件AAA 重命名为 BBB </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv AAA BBB</span><br></pre></td></tr></table></figure>
-
-<p>3) 复制目录下所有文件到指定目录</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> mv /usr/tomcat/*  .</span><br></pre></td></tr></table></figure>
-
-<h5 id="11-scp："><a href="#11-scp：" class="headerlink" title="11.  scp："></a>11.  scp：</h5><h5 id="12-find-whereis-which-locate："><a href="#12-find-whereis-which-locate：" class="headerlink" title="12.find/whereis/which/locate："></a>12.find/whereis/which/locate：</h5><h5 id="13touch："><a href="#13touch：" class="headerlink" title="13touch："></a>13touch：</h5><h5 id="14-rm："><a href="#14-rm：" class="headerlink" title="14.rm："></a>14.rm：</h5><p>grep：</p>
-<p>mount：</p>
-<p>ping ：</p>
-<p>telnet：</p>
-<p>date：</p>
-<p>df：</p>
-<p>free：</p>
-<p>useradd：</p>
-<p>userdel：</p>
-<p>usermod：</p>
-<p>groupadd：</p>
-<p>groupdel：</p>
-<p>groupmod：</p>
-<p>ifconfig：</p>
-<p>netstat：</p>
-<p>vi/vim：</p>
-<p>cat/tac：</p>
-<p>more：</p>
-<p>less：</p>
-<p>head/tail：</p>
-<p>touch：</p>
-<p>su：</p>
-<p>sudo：</p>
-<p>clean：</p>
-<p>alias：</p>
-<p>echo：</p>
-<p>export：</p>
-<p>rpm：</p>
-<p>unzip：</p>
-<p>tar：</p>
-<p>kill ：</p>
-<p>grep：</p>
-<p>init：</p>
-<p>shutdown、poweroff、halt、reboot：</p>
-<h5 id="df-du："><a href="#df-du：" class="headerlink" title="df/du："></a>df/du：</h5><ol>
-<li>yum：</li>
-</ol>
-
+        <h4 id="1-cd：用于切换当前工作目录至-dirName-目录参数"><a href="#1-cd：用于切换当前工作目录至-dirName-目录参数" class="headerlink" title="1. cd：用于切换当前工作目录至 dirName(目录参数)"></a>1. cd：用于切换当前工作目录至 dirName(目录参数)</h4><p>1) 切换到 /usr/bin<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> /usr/bin</span></span><br></pre></td></tr></table></figure></p>
+<p>2) 切换到 /home<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> ~</span></span><br></pre></td></tr></table></figure></p>
+<p>3) 切换到上上级目录<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">cd</span> ../..</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="2-ls：用于显示指定工作目录下之内容"><a href="#2-ls：用于显示指定工作目录下之内容" class="headerlink" title="2. ls：用于显示指定工作目录下之内容"></a>2. ls：用于显示指定工作目录下之内容</h4><p>1) 列出根目录下的所有内容 （-a 显示隐藏文件，隐藏文件以 .xxx 开头 ）<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> ls /</span></span><br><span class="line">bin               dev   lib         media  net   root     srv  upload  www</span><br><span class="line">boot              etc   lib64       misc   opt   sbin     sys  usr</span><br><span class="line">home  lost+found  mnt    proc  selinux  tmp  var</span><br></pre></td></tr></table></figure></p>
+<p>2) 列出目前工作目录下所有名称是s开头的文件，按时间倒序<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> ls -ltr s*</span></span><br></pre></td></tr></table></figure></p>
+<p>3)  列出目前工作目录下所有文件及目录；目录于名称后加 “/“, 可执行文件名称后加 “*”, 链接文件后 “@”<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> ls -AF</span></span><br><span class="line">bin/  games/    java/  lib64/    local/  share/  tmp@</span><br><span class="line">etc/  include/  lib/   libexec/  sbin/   src/</span><br></pre></td></tr></table></figure></p>
+<h4 id="3-ll：用于显示指定工作目录下详细内容"><a href="#3-ll：用于显示指定工作目录下详细内容" class="headerlink" title="3. ll：用于显示指定工作目录下详细内容"></a>3. ll：用于显示指定工作目录下详细内容</h4><p>   1) 详细显示文件或文件夹的权限、组、文件属性</p>
+<pre><code><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> ll</span></span><br><span class="line">total 136</span><br><span class="line">dr-xr-xr-x.  2 root root 24576 Jul 29  2018 bin</span><br><span class="line">drwxr-xr-x.  2 root root     6 Mar 13  2014 etc</span><br><span class="line">drwxr-xr-x.  2 root root     6 Mar 13  2014 games</span><br><span class="line">drwxr-xr-x.  3 root root    22 Jul 29  2018 include</span><br><span class="line">drwxr-xr-x.  3 root root    66 Jul 30  2018 java</span><br><span class="line">dr-xr-xr-x. 27 root root  4096 Jul 29  2018 lib</span><br><span class="line">dr-xr-xr-x. 49 root root 24576 Jul 29  2018 lib64</span><br><span class="line">drwxr-xr-x. 17 root root  4096 Jul 29  2018 libexec</span><br><span class="line">drwxr-xr-x. 14 root root  4096 Jun 18 23:11 local</span><br><span class="line">dr-xr-xr-x.  2 root root 16384 Jul 29  2018 sbin</span><br><span class="line">drwxr-xr-x. 87 root root  4096 Jul 29  2018 share</span><br><span class="line">drwxr-xr-x.  4 root root    32 Jul 29  2018 src</span><br><span class="line">lrwxrwxrwx.  1 root root    10 Jul 29  2018 tmp -&gt; ../var/tmp</span><br></pre></td></tr></table></figure></code></pre><h4 id="4-wd：用于显示当前所在的工作目录的绝对路径名称"><a href="#4-wd：用于显示当前所在的工作目录的绝对路径名称" class="headerlink" title="4. wd：用于显示当前所在的工作目录的绝对路径名称"></a>4. wd：用于显示当前所在的工作目录的绝对路径名称</h4><p>   1) 查看当前所在目录</p>
+<pre><code><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">pwd</span></span></span><br><span class="line">/root/test           #输出结果</span><br></pre></td></tr></table></figure></code></pre><h4 id="5-mkdir：用于建立名称为-dirName-之子目录"><a href="#5-mkdir：用于建立名称为-dirName-之子目录" class="headerlink" title="5. mkdir：用于建立名称为 dirName 之子目录"></a>5. mkdir：用于建立名称为 dirName 之子目录</h4><p>   1) 创建一个名为 AAA 的子目录 :</p>
+<pre><code><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mkdir AAA</span></span><br></pre></td></tr></table></figure></code></pre><p>   2) 级联创建多层目录，</p>
+<pre><code><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mkdir -p BBB/Test</span></span><br></pre></td></tr></table></figure></code></pre><h4 id="6-rmdir：删除空的目录"><a href="#6-rmdir：删除空的目录" class="headerlink" title="6. rmdir：删除空的目录"></a>6. rmdir：删除空的目录</h4><p>   1) 删除空的目录<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> rmdir AAA</span></span><br></pre></td></tr></table></figure></p>
+<p>   2) 级联删除多层目录<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> rmdir -p BBB/Test</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="7-chmod：设定文件的操作权限"><a href="#7-chmod：设定文件的操作权限" class="headerlink" title="7. chmod：设定文件的操作权限"></a>7. chmod：设定文件的操作权限</h4><p>   1) 参数说明：<br>      + u 表示该文件的拥有者，g 表示与该文件的拥有者属于同一个群体(group)者，o 表示其他以外的人，a 表示这三者皆是。<br>      + 表示增加权限、- 表示取消权限、= 表示唯一设定权限。<br>      + r 表示可读取，w 表示可写入，x 表示可执行，X 表示只有当该文件是个子目录或者该文件已经被设定过为可执行。<br>      + 若要rwx属性则4+2+1=7、若要rw-属性则4+2=6、若要r-x属性则4+1=5。<br>   2) 设定该文件拥有者可以执行<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> chmod 777 file</span></span><br></pre></td></tr></table></figure></p>
+<p>   3) 设定该文件拥有者和用户组有读写执行权限，其他人有执行权限 (字母形式和数字)<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> chmod ug=rwx,o=x file</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> chmod 771 file</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="8-chown：设定文件的拥有者或操作组"><a href="#8-chown：设定文件的拥有者或操作组" class="headerlink" title="8.  chown：设定文件的拥有者或操作组"></a>8.  chown：设定文件的拥有者或操作组</h4><p>   1) 参数说明：<br>      - user : 新的文件拥有者的使用者 ID<br>      - group : 新的文件拥有者的使用者组(group)<br>      - -c : 显示更改的部分的信息<br>      - -f : 忽略错误信息<br>      - -h :修复符号链接<br>      - -v : 显示详细的处理信息<br>      - -R : 处理指定目录以及其子目录下的所有文件<br>   2) 将文件 file1.txt 的拥有者设定为 oracle，操作组设置为 oinstall<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> chown oracle:oinstall file1.txt</span></span><br></pre></td></tr></table></figure></p>
+<p>   3) 将当前目录下所有文件及文件夹设定为拥有者 oracle，操作组 oinstall<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> chown -R oracle:oinstall *</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="9-cp：用于复制文件或目录"><a href="#9-cp：用于复制文件或目录" class="headerlink" title="9. cp：用于复制文件或目录"></a>9. cp：用于复制文件或目录</h4><p>   1) 参数说明<br>      - -a：此选项通常在复制目录时使用，它保留链接、文件属性，并复制目录下的所有内容。其作用等于dpR参数组合。<br>      - -d：复制时保留链接。这里所说的链接相当于Windows系统中的快捷方式。<br>      - -f：覆盖已经存在的目标文件而不给出提示。<br>      - -i：与-f选项相反，在覆盖目标文件之前给出提示，要求用户确认是否覆盖，回答”y”时目标文件将被覆盖。<br>      - -p：除复制文件的内容外，还把修改时间和访问权限也复制到新文件中。<br>      - -r：若给出的源文件是一个目录文件，此时将复制该目录下所有的子目录和文件。<br>      - -l：不复制文件，只是生成链接文件。<br>   2) 将当前目录下 “test/” 下的所有文件复制到新建的 “newtest” 下<br>      <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> cp –r <span class="built_in">test</span>/ newtest</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="10-mv：用于移动或重命名文件或目录-当文件在同级目录为重命名操作，不同目录为移动操作"><a href="#10-mv：用于移动或重命名文件或目录-当文件在同级目录为重命名操作，不同目录为移动操作" class="headerlink" title="10. mv：用于移动或重命名文件或目录 (当文件在同级目录为重命名操作，不同目录为移动操作)"></a>10. mv：用于移动或重命名文件或目录 (当文件在同级目录为重命名操作，不同目录为移动操作)</h4><p>   1) 参数说明：<br>      - -i: 若指定目录已有同名文件，则先询问是否覆盖旧文件;<br>      - -f: 在mv操作要覆盖某已有的目标文件时不给任何指示;<br>   2) 将文件AAA 重命名为 BBB<br>       <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mv AAA BBB</span></span><br></pre></td></tr></table></figure></p>
+<p>   3) 复制目录下所有文件到指定目录（例：复制/usr/tomcat路径下的所有文件到 /usr/tem 目录下…）<br>    <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> mv /usr/tomcat/*  /usr/tmp</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="11-scp：-secure-copy-用于在linux之间复制文件或目录"><a href="#11-scp：-secure-copy-用于在linux之间复制文件或目录" class="headerlink" title="11. scp：[secure copy] 用于在linux之间复制文件或目录"></a>11. scp：[secure copy] 用于在linux之间复制文件或目录</h4><p>1) 语法：<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># scp [可选参数] file_source file_target</span><br></pre></td></tr></table></figure></p>
+<p>2) 常用参数说明：<br>      - q： 不显示传输进度条。<br>      - r： 递归复制整个目录。<br>      - v：详细方式显示输出。scp和ssh(1)会显示出整个过程的调试信息。这些信息用于调试连接，验证和配置问题。<br>3) 从本地复制到远程地址:<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># scp local_file remote_username@remote_ip:remote_folder</span><br></pre></td></tr></table></figure></p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># scp  /home/file1 root@192.168.18.2:/home/file</span><br></pre></td></tr></table></figure></code></pre><p>4) 从远程地址复制到本地:<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># scp root@192.168.18.2:/home/file2 /home/file</span><br></pre></td></tr></table></figure></p>
+<p>5) 如果远程服务器设置了防火墙，可以指定端口来传输:<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp -P 4566 remote@192.168.18.2:/usr/local/sin.sh /home/admin</span><br></pre></td></tr></table></figure></p>
+<h4 id="12-find-whereis-which-locate：文件查找命令"><a href="#12-find-whereis-which-locate：文件查找命令" class="headerlink" title="12. find/whereis/which/locate：文件查找命令"></a>12. find/whereis/which/locate：文件查找命令</h4><p>1) find: 用于在指定文件下查找文件（查找文件名带有字符start字样的文件名）<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># find . -name &quot;*start*&quot;</span><br></pre></td></tr></table></figure></p>
+<p>2) whereis: 用于查找文件（查找二进制文件、源代码文件等）<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># whereis bash</span><br><span class="line">bash: /usr/bin/bash /usr/share/man/man1/bash.1.gz</span><br></pre></td></tr></table></figure></p>
+<p>3) which: 用于查找文件（查找在环境变量$PATH设置的目录里查找符合条件的文件）<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># which</span><br><span class="line">/usr/bin/bash</span><br></pre></td></tr></table></figure></p>
+<p>4) locate 用于查找符合条件的文档或目录<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># locate passswd</span><br><span class="line">/etc/passwd</span><br><span class="line">/etc/passwd-</span><br><span class="line">/etc/pam.d/passwd</span><br><span class="line">/etc/security/opasswd</span><br><span class="line">/usr/bin/gpasswd</span><br><span class="line">/usr/bin/grub2-mkpasswd-pbkdf2</span><br><span class="line">/usr/bin/htpasswd</span><br><span class="line">/usr/bin/passwd</span><br></pre></td></tr></table></figure></p>
+<h4 id="13-touch：用于创建新文件或修改文件、目录的时间属性"><a href="#13-touch：用于创建新文件或修改文件、目录的时间属性" class="headerlink" title="13. touch：用于创建新文件或修改文件、目录的时间属性"></a>13. touch：用于创建新文件或修改文件、目录的时间属性</h4><p>1) 参数说明<br>    - a 改变档案的读取时间记录。<br>    - m 改变档案的修改时间记录。<br>    - c 假如目的档案不存在，不会建立新的档案。与 –no-create 的效果一样。<br>    - f 不使用，是为了与其他 unix 系统的相容性而保留。<br>    - r 使用参考档的时间记录，与 –file 的效果一样。<br>    - d 设定时间与日期，可以使用各种不同的格式。<br>    - t 设定档案的时间记录，格式与 date 指令相同。<br>2) 修改当前目录下文件时间属性为当前时间，如果该文件名文件不存在，则创建一个新的文件<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># touch testfile</span><br></pre></td></tr></table></figure></p>
+<h4 id="14-rm：用于删除一个文件或文件夹"><a href="#14-rm：用于删除一个文件或文件夹" class="headerlink" title="14. rm：用于删除一个文件或文件夹"></a>14. rm：用于删除一个文件或文件夹</h4><h4 id="15-grep：用于查找文件里符合条件的字符串（egrep-fgrep-rgrep）"><a href="#15-grep：用于查找文件里符合条件的字符串（egrep-fgrep-rgrep）" class="headerlink" title="15. grep：用于查找文件里符合条件的字符串（egrep/fgrep/rgrep）"></a>15. grep：用于查找文件里符合条件的字符串（egrep/fgrep/rgrep）</h4><h4 id="16-mount：用于挂载-Linux-系统外的文件（mmount-umount）"><a href="#16-mount：用于挂载-Linux-系统外的文件（mmount-umount）" class="headerlink" title="16. mount：用于挂载 Linux 系统外的文件（mmount/umount）"></a>16. mount：用于挂载 Linux 系统外的文件（mmount/umount）</h4><h4 id="17-ping：用于检测远程主机状态"><a href="#17-ping：用于检测远程主机状态" class="headerlink" title="17. ping：用于检测远程主机状态"></a>17. ping：用于检测远程主机状态</h4><h4 id="18-telnet：用于远程登录系统或检测远程服务端口状况"><a href="#18-telnet：用于远程登录系统或检测远程服务端口状况" class="headerlink" title="18. telnet：用于远程登录系统或检测远程服务端口状况"></a>18. telnet：用于远程登录系统或检测远程服务端口状况</h4><h4 id="19-date：用于显示或设置系统时间"><a href="#19-date：用于显示或设置系统时间" class="headerlink" title="19. date：用于显示或设置系统时间"></a>19. date：用于显示或设置系统时间</h4><h4 id="20-df：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计"><a href="#20-df：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计" class="headerlink" title="20. df：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计"></a>20. df：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计</h4><h4 id="21-free：free命令用于显示内存状态"><a href="#21-free：free命令用于显示内存状态" class="headerlink" title="21. free：free命令用于显示内存状态"></a>21. free：free命令用于显示内存状态</h4><h4 id="22-useradd：用于创建用户帐号"><a href="#22-useradd：用于创建用户帐号" class="headerlink" title="22. useradd：用于创建用户帐号"></a>22. useradd：用于创建用户帐号</h4><h4 id="23-userdel：用于删除用户帐号"><a href="#23-userdel：用于删除用户帐号" class="headerlink" title="23. userdel：用于删除用户帐号"></a>23. userdel：用于删除用户帐号</h4><h4 id="24-usermod：用于修改用户帐号"><a href="#24-usermod：用于修改用户帐号" class="headerlink" title="24. usermod：用于修改用户帐号"></a>24. usermod：用于修改用户帐号</h4><h4 id="25-groupadd：用于创建群组"><a href="#25-groupadd：用于创建群组" class="headerlink" title="25. groupadd：用于创建群组"></a>25. groupadd：用于创建群组</h4><h4 id="26-groupdel：用于删除群组"><a href="#26-groupdel：用于删除群组" class="headerlink" title="26. groupdel：用于删除群组"></a>26. groupdel：用于删除群组</h4><h4 id="27-groupmod：用于修改群组"><a href="#27-groupmod：用于修改群组" class="headerlink" title="27. groupmod：用于修改群组"></a>27. groupmod：用于修改群组</h4><h4 id="28-ifconfig：用于显示或设置网络设备-或-设置网络设备的状态，或是显示目前的设置"><a href="#28-ifconfig：用于显示或设置网络设备-或-设置网络设备的状态，或是显示目前的设置" class="headerlink" title="28. ifconfig：用于显示或设置网络设备 或 设置网络设备的状态，或是显示目前的设置"></a>28. ifconfig：用于显示或设置网络设备 或 设置网络设备的状态，或是显示目前的设置</h4><h4 id="29-netstat：用于显示网络状态-或-利用netstat指令可让你得知整个Linux系统的网络情况"><a href="#29-netstat：用于显示网络状态-或-利用netstat指令可让你得知整个Linux系统的网络情况" class="headerlink" title="29. netstat：用于显示网络状态 或 利用netstat指令可让你得知整个Linux系统的网络情况"></a>29. netstat：用于显示网络状态 或 利用netstat指令可让你得知整个Linux系统的网络情况</h4><h4 id="30-vi-vim：文件编辑器"><a href="#30-vi-vim：文件编辑器" class="headerlink" title="30. vi/vim：文件编辑器"></a>30. vi/vim：文件编辑器</h4><h4 id="31-cat-tac：用于连接文件并打印到标准输出设备上"><a href="#31-cat-tac：用于连接文件并打印到标准输出设备上" class="headerlink" title="31. cat/tac：用于连接文件并打印到标准输出设备上"></a>31. cat/tac：用于连接文件并打印到标准输出设备上</h4><h4 id="32-more：分页查看文件信息"><a href="#32-more：分页查看文件信息" class="headerlink" title="32. more：分页查看文件信息"></a>32. more：分页查看文件信息</h4><h4 id="33-less：可以随意浏览文件，在查看之前不会加载整个文件"><a href="#33-less：可以随意浏览文件，在查看之前不会加载整个文件" class="headerlink" title="33. less：可以随意浏览文件，在查看之前不会加载整个文件"></a>33. less：可以随意浏览文件，在查看之前不会加载整个文件</h4><h4 id="34-head-tail：动态显示文件内容"><a href="#34-head-tail：动态显示文件内容" class="headerlink" title="34. head/tail：动态显示文件内容"></a>34. head/tail：动态显示文件内容</h4><h4 id="35-last：用于显示用户最近登录信息"><a href="#35-last：用于显示用户最近登录信息" class="headerlink" title="35. last：用于显示用户最近登录信息"></a>35. last：用于显示用户最近登录信息</h4><h4 id="36-su：用于变更为其他使用者的身份，除-root-外，需要键入该使用者的密码"><a href="#36-su：用于变更为其他使用者的身份，除-root-外，需要键入该使用者的密码" class="headerlink" title="36. su：用于变更为其他使用者的身份，除 root 外，需要键入该使用者的密码"></a>36. su：用于变更为其他使用者的身份，除 root 外，需要键入该使用者的密码</h4><h4 id="37-sudo：以系统管理者的身份执行指令，也就是说，经由-sudo-所执行的指令就好像是-root-亲自执行"><a href="#37-sudo：以系统管理者的身份执行指令，也就是说，经由-sudo-所执行的指令就好像是-root-亲自执行" class="headerlink" title="37. sudo：以系统管理者的身份执行指令，也就是说，经由 sudo 所执行的指令就好像是 root 亲自执行"></a>37. sudo：以系统管理者的身份执行指令，也就是说，经由 sudo 所执行的指令就好像是 root 亲自执行</h4><h4 id="38-clean：清空当前屏幕显示内容"><a href="#38-clean：清空当前屏幕显示内容" class="headerlink" title="38. clean：清空当前屏幕显示内容"></a>38. clean：清空当前屏幕显示内容</h4><h4 id="39-alias：用于设置指令的别名"><a href="#39-alias：用于设置指令的别名" class="headerlink" title="39. alias：用于设置指令的别名"></a>39. alias：用于设置指令的别名</h4><h4 id="40-echo：用于字符串的输出（查看某个环境变量）"><a href="#40-echo：用于字符串的输出（查看某个环境变量）" class="headerlink" title="40. echo：用于字符串的输出（查看某个环境变量）"></a>40. echo：用于字符串的输出（查看某个环境变量）</h4><h4 id="41-export：用于设置或显示环境变量"><a href="#41-export：用于设置或显示环境变量" class="headerlink" title="41. export：用于设置或显示环境变量"></a>41. export：用于设置或显示环境变量</h4><h4 id="42-rpm：组件管理"><a href="#42-rpm：组件管理" class="headerlink" title="42. rpm：组件管理"></a>42. rpm：组件管理</h4><h4 id="43-unzip：用于解压缩zip文件（gunzip-gzip-bunzip2）"><a href="#43-unzip：用于解压缩zip文件（gunzip-gzip-bunzip2）" class="headerlink" title="43. unzip：用于解压缩zip文件（gunzip/gzip/bunzip2）"></a>43. unzip：用于解压缩zip文件（gunzip/gzip/bunzip2）</h4><h4 id="44-tar：用于备份文件"><a href="#44-tar：用于备份文件" class="headerlink" title="44. tar：用于备份文件"></a>44. tar：用于备份文件</h4><h4 id="45-kill：用于删除执行中的程序或工作"><a href="#45-kill：用于删除执行中的程序或工作" class="headerlink" title="45. kill：用于删除执行中的程序或工作"></a>45. kill：用于删除执行中的程序或工作</h4><h4 id="46-history：查看历史执行命令"><a href="#46-history：查看历史执行命令" class="headerlink" title="46. history：查看历史执行命令"></a>46. history：查看历史执行命令</h4><h4 id="47-yum-提供了查找、安装、删除某一个、一组甚至全部软件包的命令"><a href="#47-yum-提供了查找、安装、删除某一个、一组甚至全部软件包的命令" class="headerlink" title="47. yum: 提供了查找、安装、删除某一个、一组甚至全部软件包的命令"></a>47. yum: 提供了查找、安装、删除某一个、一组甚至全部软件包的命令</h4><h4 id="48-df-du：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计"><a href="#48-df-du：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计" class="headerlink" title="48. df/du：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计"></a>48. df/du：用于显示目前在Linux系统上的文件系统的磁盘使用情况统计</h4><h4 id="49-init：设置系统启动模式"><a href="#49-init：设置系统启动模式" class="headerlink" title="49. init：设置系统启动模式"></a>49. init：设置系统启动模式</h4><h4 id="50-shutdown、poweroff、halt、reboot：关机命令"><a href="#50-shutdown、poweroff、halt、reboot：关机命令" class="headerlink" title="50. shutdown、poweroff、halt、reboot：关机命令"></a>50. shutdown、poweroff、halt、reboot：关机命令</h4>
       
 
       
